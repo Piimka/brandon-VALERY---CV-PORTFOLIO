@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Brandon VALERY - Portfolio</title>
+</head>
+<body>
+    
+    <div id="preloader">
+        <div id="loader"></div>
+        <h1>Chargement...</h1>
+    </div>
+
+    <div id="main-content">
+
+    <div class="container">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p id="message"></p>
+        <button onclick="afficherMessage()">Cliquez pour afficher un message</button>
+        <div id="php-message"></div>
+        <section id="contact">
+            <h2>Contactez moi</h2>
+            <form action="traitement-contact.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section id="gallery">
+            <h2>Galerie d'Images</h2>
+            <div class="image-container">
+                <img src="https://www.amplitudes.com/blog/wp-content/uploads/2017/04/PANO.jpg" alt="Image 1">
+                <img src="https://img.freepik.com/photos-gratuite/paysages-forestiers_71767-127.jpg" alt="Image 2">
+                <img src="https://img.freepik.com/photos-gratuite/objets-roche-nature-encadrent-ia-generative-paysage-aquatique-tranquille_188544-12636.jpg" alt="Image 3">
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Compétences</h2>
+            <div class="skill-container">
+                <div class="skill">
+                    <h3>Langages de Programmation</h3>
+                    <ul>
+                        <li>HTLML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                 
+                <div class="skill">
+                    <h3>Outils et Frameworks</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="about-me">
+            <h2>A Propos de moi</h2>
+            <p>
+                Je suis passionné par le Développement Web et j'ai 6 mois d'expériences dans le Développement Web.
+                J'était Chauffeur / Livreur depuis plus de 3 ans puis un grâve accident c'est produit en Juillet 2023 qui ma fait démissionner de mon travail et qui dans le malheure ma permis de me reconvertir dans le domaine du Développement Web.
+            </p>
+        </section>
+    </div>
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
