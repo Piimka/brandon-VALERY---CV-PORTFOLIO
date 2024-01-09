@@ -1,16 +1,3 @@
-function downloadInfo() {
-    var infoURL = "Info.pdf";
-    var infoName = "Info.pdf";
-    
-    var link = document.createElement("a");
-    link.href = infoURL;
-    link.download = infoName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-
-}
-
 function showEmailAdress() {
     var emailAdress = "brandon.valery301222@gmail.com"
     alert("Adresse e-mail : " + emailAdress);
