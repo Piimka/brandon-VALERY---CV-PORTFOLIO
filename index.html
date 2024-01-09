@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Brandon VALERY - CV</title>
+</head>
+<body>
+    
+    <div id="preloader">
+        <div id="loader"></div>
+        <h1>Chargement...</h1>
+    </div>
+
+    <div id="main-content">
+    <header>
+        <h1>Mon CV</h1>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Portfolio/index.html" target="_blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>Bienvenue sur mon site CV en ligne. Je suis Brandon VALERY, Développeur Web en Formation dans l'école 3WA Academy.</p>
+        <button onclick="downloadInfo()">Formation Full Stack Développeur en alternance 16 mois - 855h</button>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML : ★★★★</li> <br>
+                <ul>
+                    <li>Maîtrise avancée de la structuration des pages web.</li>
+                    <li>Utilisation de balises sémantiques pour améliorer l'accessibilité et le référencement.</li>
+                    <li>Connaissance des dernières normes HTML5.</li>
+                </ul> <br>
+            <li>CSS : ★★★★</li> <br>
+                <ul>
+                    <li>Conception et stylisation avancées avec CSS3.</li>
+                    <li>Création de mises en page responsives et adaptées aux différents appareils.</li>
+                </ul> <br>
+            <li>JavaScript : ★★☆☆</li> <br>
+                <ul>
+                    <li>Programmation côté client pour interactivité et manipulation du DOM.</li>
+                    <li>Utilisation de bibliothèques comme jQuery.</li>
+                    <li>Familiarité avec les concepts de base, mais en cours d'approfondissement.</li>
+                </ul> <br>
+            <li>PHP : ★☆☆☆</li> <br>
+                <ul>
+                    <li>Développement backend pour la création de pages dynamiques.</li>
+                    <li>Manipulation de bases de données avec MySQL.</li>
+                    <li>Connaissance des principes fondamentaux, mais besoin de plus de pratique.</li>
+                </ul> <br>
+            <li>C++ : ★☆☆☆</li> <br>
+                <ul>
+                    <li>Développement de programmes simples en C++.</li>
+                    <li>Utilisation de structures de contrôle (boucles, conditions).</li>
+                    <li>Interaction avec l'utilisateur (entrée/sortie).</li>
+                    <li>Apprentissage autodidacte en cours.</li>
+                </ul>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expérience Professionnelle</h2>
+        <p>Trab Express - Chauffeur / Livreur - 06 Septembre 2021 au 24 Juillet 2023</p>
+        <p>Livraison de Colis pour la société Colissimo.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contactez-moi en cliquant sur le bouton :</p>
+        <button onclick="showEmailAdress()">Obtenir l'adresse e-mail</button>
+        <button onclick="downloadCV()">Télécharger mon CV</button>
+    </section>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
