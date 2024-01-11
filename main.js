@@ -4,8 +4,8 @@ function showEmailAdress() {
 }
 
 function downloadCV() {
-    var cvURL = "CV.png";
-    var cvName = "CV.png";
+    var cvURL = "CV.jpg";
+    var cvName = "CV.jpg";
 
     var link = document.createElement("a");
     link.href = cvURL;
