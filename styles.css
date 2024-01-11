@@ -157,6 +157,10 @@ li {
     position: relative;
 }
 
+h4 {
+    text-align: center;
+}
+
 #contact {
     text-align: center;
 }
